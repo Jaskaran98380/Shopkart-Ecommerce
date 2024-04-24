@@ -1,0 +1,226 @@
+
+.carouselImage{
+    width:33.2vmax;
+    height:50vmin;
+   
+}
+.test{
+    
+}
+ .productDetails {
+    height:100vmin;
+    width: 100vw;
+    max-width: 100%;
+    padding: 6vmax;
+    box-sizing: border-box;
+    display: flex;
+    background-color:antiquewhite;
+}
+.productDetails > div{
+    display:flex;
+    width:100%;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+    box-sizing:border-box;
+    padding:2vmax;
+    
+} 
+.productBlock{
+    /* background-color:yellow; */
+}
+.inner{
+    /* background-color:magenta; */
+    width:80%;
+}
+.productDetails > div:last-child{
+    align-items:flex-start; 
+} 
+.productBlock-2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.productCardSpan{
+    font:400 1vmax "Roboto";
+}
+.productBlock-3-1 > button{
+    border-radius:50%;
+    font-size:30px;
+    margin:3px;
+    border:1px solid black;
+    cursor:pointer;
+}
+.productBlock-3-1 > input{
+    border-radius:5%;
+    font-size:25px;
+    width:40px;
+    text-align:center;
+}
+.productBlock-3-1-1{
+    margin:1vmin;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.productBlock-3-1-1 > p{
+    font-size:18px;
+}
+.productBlock-3-1-1 > span{
+    font-size:22px;
+}
+.productBlock-3{
+    /* background-color:green; */
+}
+.productBlock-4 > button{
+    background-color:pink;
+    color:black;
+    cursor:pointer;
+    border-radius:20px;
+    transition:all 0.5ms;
+    font-size:0.7vmax;
+    border:1px solid black;
+    padding:10px;
+    
+}
+.productBlock-4 > button:hover{
+    background-color:rgb(245, 213, 218);
+    color:black;
+}
+.productBlock-5 > button{
+    background-color:red;
+    color:white;
+    cursor:pointer;
+    transition:all 0.5ms;
+    font-size:1.2vmax;
+    border:1px solid black;
+    margin-top:1vmax;
+    padding:1vmax;
+    border-radius:20px;
+}
+.productBlock-5 > button:hover{
+    background-color:darkgrey;
+    color:black;
+}
+.red{
+    background-color:rgb(241, 94, 94);
+    padding:0.1vmax;
+    border-radius:100%;
+    width:35px;
+}
+.green{
+    background-color:lightgreen;
+    padding:0.1vmax;
+    border-radius:100%;
+    width:35px;
+}
+.submitDialog{
+    display:flex;
+    flex-direction: column;
+}
+.submitDialogTextArea{
+    border:1px solid black;
+    margin:0.5vmax 0;
+}
+.productBlock-3 > h2{
+    font-family:Roboto;
+    margin:0 0 1vmax 0;
+}
+.productBlock-1 > h1{
+    font-family:Roboto;
+    color:black;
+}
+
+
+@media screen and (max-width: 600px) {
+    .productDetails {
+      flex-direction: column;
+      height: unset;
+      justify-content:center;
+    }
+  
+    .productDetails > div:last-child {
+      align-items: center;
+    }
+  
+    .productBlock-1 > h1 {
+      font-size: 4vmax;
+      text-align: center;
+    }
+    .productBlock-2 {
+      justify-content: center;
+    }
+    .productBlock-2 > span {
+      font-size: 1.5vmax;
+    }
+  
+    .productBlock-3 > h2 {
+      font: 700 3vmax "Franklin Gothic Medium";
+      text-align: center;
+    }
+  
+    .productBlock-3-1 {
+      flex-direction: column;
+    }
+  
+    .productBlock-3-1-1 {
+      padding: 2vmax 0;
+    }
+  
+    .productBlock-3-1 > input {
+      padding: 1.5vmax;
+      width: 3vmax;
+      font: 400 1.8vmax "Roboto";
+    }
+  
+  
+  
+    
+    .productBlock-4 > button{
+        font-size:1vmax;
+    }
+  
+    .productBlock-5 > button {
+      font: 500 1.7vmax "Roboto";
+      padding: 1.5vmax;
+      width: 20vmax;
+      margin: 3vmax 0;
+    }
+    .productBlock-3-1{
+        text-align:center;
+    }
+    .carouselImage{
+        width:55vmax
+    }
+    .productBlock-3-1 > button{
+        font-size:20px;
+    }
+    .productBlock-3 > h2{
+        margin:2vmax 0 2vmax 0;
+        font-size:4vmax;
+    }
+    .productBlock-4 > button{
+        font-size:1vmax;
+    }
+}
+.reviewHeading{
+    text-align:center;
+    border-bottom:1px solid #02aab0;
+    border-top:1px solid #02aab0;
+    width:10vmax;
+    margin:5vmax auto;
+    font-family: Roboto;
+    font-size:1.7vmax;
+}
+.noReviews{
+    text-align:center;
+}
+
+
+
+
+
+
+
+

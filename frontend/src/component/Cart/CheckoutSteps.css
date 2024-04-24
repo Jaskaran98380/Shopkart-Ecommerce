@@ -1,0 +1,9 @@
+.active{
+    color:tomato;
+}
+.completedStep{
+    color:green;
+}
+.notReached{
+    color:unset;
+}

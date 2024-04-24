@@ -1,0 +1,26 @@
+.loading{
+    width:100vw;
+    height:100vh;
+    background-color:white;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+
+
+}
+
+.loading > div{
+    width:6vmax;
+    height:6vmax;
+    /* background-color:#02aab0; */
+    border-bottom:5px solid #02aab0;
+    border-radius:50%;
+    animation:loaderRotate 800ms linear infinite; 
+
+}
+@keyframes loaderRotate{
+    to{
+        transform:rotateZ(360deg);
+    }
+}

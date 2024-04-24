@@ -1,0 +1,35 @@
+.reviewCard{
+    width:85vmax;
+    height:25vmin;
+    /* background-color:red; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.226);
+  border: 1px solid rgba(56, 56, 56, 0.116);
+  cursor:pointer;
+  transition:transform 300ms ease-in;
+  margin:1vmax;
+}
+.reviewCard:hover{
+    transform:scale(1.1);
+}
+
+.reviewCard > img{
+    width:3vmax;
+    height:3vmax;
+}
+.outerReview{
+    width:98.9vmax;
+    /* height:25vmin; */
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.reviewCard > p{
+    font-family:cursive;
+}
+.reviewCard > h2{
+    font-family:Roboto;
+}
